@@ -127,7 +127,7 @@ TEST(Queue, can_take_an_element_from_non_empty_non_empty_queue)
     ASSERT_NO_THROW(a.GetHead());
 }
 
-TEST(Stack, cant_take_an_element_from_an_empty_stack)
+TEST(Queue, cant_take_an_element_from_an_empty_stack)
 {
     TQueue<int> a(3);
     ASSERT_ANY_THROW(a.GetHead());
